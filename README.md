@@ -26,7 +26,7 @@ FastChat's core features include:
 
 </details>
 
-<a href="https://lmarena.ai"><img src="assets/demo_narrow.gif" width="70%"></a>
+<a href="https://lmarena.ai"><img src="demo-media/demo_narrow.gif" width="70%"></a>
 
 ## Contents
 - [Install](#install)

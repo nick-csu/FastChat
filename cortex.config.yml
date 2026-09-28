@@ -1,0 +1,78 @@
+project: fastchat-demo
+title: FastChat · Unofficial demo
+theme: system
+primaryColor: '#f97316'
+home:
+  title: FastChat documentation
+  description: Unofficial documentation preview prepared by Cortex from the project's existing Markdown.
+  cta:
+    label: Read the documentation
+    href: /docs/overview
+  sections:
+    - title: Serving and APIs
+      description: Run models and connect an OpenAI compatible client.
+      href: /docs/openai-compatible-api
+      badge: Guides
+    - title: Model support
+      description: Explore models, quantization, and inference backends.
+      href: /docs/model-support
+      badge: Guides
+    - title: Use docs through MCP
+      description: Read these guides from your AI client with a local documentation server.
+      href: /mcp/setup
+      badge: Local MCP
+    - title: About this demo
+      description: Source attribution, demo limitations, and instructions to reproduce this preview.
+      href: /docs/about-this-demo
+      badge: Unofficial preview
+docs:
+  - section: Getting started
+    sources:
+      - title: Overview
+        document: README.md
+      - title: Model support
+        document: docs/model_support.md
+      - title: Server architecture
+        document: docs/server_arch.md
+  - section: Serving and integrations
+    sources:
+      - title: OpenAI compatible API
+        document: docs/openai_api.md
+      - title: vLLM integration
+        document: docs/vllm_integration.md
+      - title: LangChain integration
+        document: docs/langchain_integration.md
+      - title: Third party interfaces
+        document: docs/third_party_ui.md
+      - title: Apple MLX integration
+        document: docs/mlx_integration.md
+      - title: LightLLM integration
+        document: docs/lightllm_integration.md
+      - title: DashInfer integration
+        document: docs/dashinfer_integration.md
+  - section: Inference and models
+    sources:
+      - title: AWQ quantization
+        document: docs/awq.md
+      - title: GPTQ quantization
+        document: docs/gptq.md
+      - title: ExLlamaV2 inference
+        document: docs/exllama_v2.md
+      - title: xFasterTransformer inference
+        document: docs/xFasterTransformer.md
+      - title: Vicuna weights
+        document: docs/vicuna_weights_version.md
+  - section: Training and evaluation
+    sources:
+      - title: Training
+        document: docs/training.md
+      - title: LLM Judge and MT Bench
+        document: fastchat/llm_judge/README.md
+      - title: Chatbot Arena
+        document: docs/arena.md
+      - title: Datasets
+        document: docs/dataset_release.md
+  - section: About this preview
+    sources:
+      - title: About this demo
+        document: CORTEX_DEMO.md
