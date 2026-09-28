@@ -1,3 +1,4 @@
+# Deploy only when this configuration or its documentation inputs change.
 project: fastchat-demo
 title: FastChat Docs
 showLogoDocsLabel: false
