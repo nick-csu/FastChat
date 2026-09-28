@@ -1,31 +1,25 @@
 project: fastchat-demo
-title: FastChat · Unofficial demo
+title: FastChat
 favicon: assets/screenshot_cli.png
 theme: system
-primaryColor: '#f97316'
+primaryColor: '#c2410c'
 home:
   title: FastChat documentation
-  description: Unofficial documentation preview prepared by Cortex from the project's existing Markdown.
+  description: Serve language models, connect API clients, and evaluate model performance.
   cta:
-    label: Read the documentation
+    label: Getting Started
     href: /docs/overview
   sections:
-    - title: Serving and APIs
-      description: Run models and connect an OpenAI compatible client.
-      href: /docs/openai-compatible-api
-      badge: Guides
-    - title: Model support
-      description: Explore models, quantization, and inference backends.
-      href: /docs/model-support
-      badge: Guides
-    - title: Use docs through MCP
-      description: Read these guides from your AI client with a local documentation server.
+    - title: Documentation
+      description: Explore model serving, integrations, training, and evaluation.
+      href: /docs/overview
+      badge: Docs
+      icon: cortex-assets/docs-icon.svg
+    - title: MCP Server
+      description: Connect your AI client to the project documentation.
       href: /mcp/setup
-      badge: Local MCP
-    - title: About this demo
-      description: Source attribution, demo limitations, and instructions to reproduce this preview.
-      href: /docs/about-this-demo
-      badge: Unofficial preview
+      badge: AI Agents
+      icon: cortex-assets/mcp-icon.svg
 docs:
   - section: Getting started
     sources:
@@ -73,7 +67,3 @@ docs:
         document: docs/arena.md
       - title: Datasets
         document: docs/dataset_release.md
-  - section: About this preview
-    sources:
-      - title: About this demo
-        document: CORTEX_DEMO.md
