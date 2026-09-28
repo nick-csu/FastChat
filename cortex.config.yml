@@ -1,5 +1,6 @@
 project: fastchat-demo
 title: FastChat · Unofficial demo
+favicon: assets/screenshot_cli.png
 theme: system
 primaryColor: '#f97316'
 home:
