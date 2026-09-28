@@ -1,5 +1,6 @@
 project: fastchat-demo
-title: FastChat
+title: FastChat Docs
+showLogoDocsLabel: false
 favicon: assets/screenshot_cli.png
 theme: system
 primaryColor: '#c2410c'
